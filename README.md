@@ -31,7 +31,7 @@ npm run dev bcryptjs cloudinary cookie-parser cors dotenv express jsonwebtoken m
 npm install --save-dev nodemon
 ```
 
-3. Create a `.env` file (see `.env.example` in backend folder).
+3. Create a `.env` file (see `.env.example`).
    
 4. Start backend:
 
@@ -54,10 +54,8 @@ cd ../frontend
 ```bash
 npm install tailwindcss vite daisyui axios lucide-react react react-dom react-hot-toast react-router-dom socket.io socket.io-client zustand
 ```
-
-3. Create a `.env` file (see `.env.example` in frontend folder).
    
-4. Start frontend:
+3. Start frontend:
 
 ```bash
 npm run dev

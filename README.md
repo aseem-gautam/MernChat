@@ -5,7 +5,7 @@
 Make sure you have the following installed:
 
 * Node.js (v18+ recommended)
-* npm or yarn
+* npm
 * MongoDB (local or MongoDB Atlas)
 * Git
 

@@ -80,14 +80,12 @@ root/
 ## Backend (`/backend/.env.example`)
 
 ```env
-PORT= 5001
-MONGODB_URI= mongodb+srv://gautamaseem3:4aacW9B9YZXW86cq@cluster0.c9ij1ij.mongodb.net/mernchat_db?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET= aseem
-NODE_ENV= development
-CLOUDINARY_CLOUD_NAME= dphrrda7r
-CLOUDINARY_API_KEY= 851912235954471
-CLOUDINARY_API_SECRET= L4fHhRtQT40H1TsVYW5XKfDB44E
-    
+PORT=5001
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
 

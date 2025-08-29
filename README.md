@@ -27,15 +27,16 @@ cd backend
 2. Install dependencies:
 
 ```bash
-npm install 
+npm run dev bcryptjs cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose socket.io
+npm install --save-dev nodemon
 ```
 
 3. Create a `.env` file (see `.env.example` in backend folder).
+   
 4. Start backend:
 
 ```bash
-npm run dev bcryptjs cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose socket.io
-npm install --save-dev nodemon
+npm run dev
 ```
 
 Backend runs at: `http://localhost:5001`
@@ -55,6 +56,7 @@ npm install tailwindcss vite daisyui axios lucide-react react react-dom react-ho
 ```
 
 3. Create a `.env` file (see `.env.example` in frontend folder).
+   
 4. Start frontend:
 
 ```bash
